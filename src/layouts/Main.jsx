@@ -1,7 +1,9 @@
+import { Outlet } from "react-router-dom"
+
 const Main = () => {
   return (
-    <div>
-      <h1 className='text-9xl'>Welcome TO Project</h1>
+    <div className="">
+      <Outlet />
     </div>
   )
 }
